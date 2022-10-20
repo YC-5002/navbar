@@ -1,0 +1,36 @@
+.flex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color:lightgray;
+    height:250px;
+    padding:5%;
+}
+
+div{
+    border: 2px solid black; 
+    height:200px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font:10%;
+}
+
+@media screen and (min-width: 768px) {
+    .flex{
+        display:flex;
+        flex-direction: row;
+        padding-left:35%;
+        align-items: right;
+        justify-content: space-between;
+        background-color: black;
+        color:lightgray;
+        height:0.5px;
+    }
+    div{
+        border: 0px;
+        height: 0px;
+    }
+}
